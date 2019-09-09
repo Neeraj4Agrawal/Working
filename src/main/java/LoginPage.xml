@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Login xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<loginObjectRepository>
+		<browser>chrome</browser>
+		<logo>xpath===//div[@class='hd_headertopaddress
+			hd_headertopaddressLogomain ']</logo>
+		<loginEmail>xpath===//input[@id='customer_email']</loginEmail>
+		<loginPassword>xpath===//input[@id='customer_password']</loginPassword>
+		<loginButton>xpath===//button[@class='signup-desktop-v3-button']</loginButton>
+		<url>https://ui.freecrm.com/</url>
+		<username>neeraj4agarwal@gmail.com</username>
+		<password>Neeraj4@</password>
+        <username_xpath>xpath===.//*[@id='ui']/div/div/form/div/div[1]/div/input</username_xpath>
+		<password_xpath>xpath===.//*[@id='ui']/div/div/form/div/div[2]/div/input</password_xpath>
+
+	</loginObjectRepository>
+
+	<loginObjectText>
+		<blankUserNameText>Username required</blankUserNameText>
+		<blankPasswordText>Password required</blankPasswordText>
+		<correctPasswordText>Password required</correctPasswordText>
+	</loginObjectText>
+</Login>

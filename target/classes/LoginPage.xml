@@ -3,6 +3,8 @@
 <Login xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<loginObjectRepository>
 		<browser>chrome</browser>
+		<extentReportFilePath>C:\Bridesides\FreeCRMCucumberFramework\src\main\java\com\qa\config\extent-config.xml</extentReportFilePath>
+		
 		<logo>xpath===//div[@class='hd_headertopaddress
 			hd_headertopaddressLogomain ']</logo>
 		<loginEmail>xpath===//input[@id='customer_email']</loginEmail>

@@ -1,7 +1,12 @@
 package com.qa.runners;
 
 
+import java.io.File;
+
+import org.junit.AfterClass;
 import org.junit.runner.RunWith;
+
+import com.cucumber.listener.Reporter;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
@@ -11,6 +16,8 @@ import cucumber.api.junit.Cucumber;
 		features="C:\\Bridesides\\FreeCRMCucumberFramework\\src\\test\\java\\com\\qa\\features\\loginadvance.feature"
 		,glue= {"com\\qa\\stepdefinitions"},
 		format= {"pretty","html:test-outout", "json:json_output/cucumber.json", "junit:junit_xml/cucumber.xml"},
+		plugin= {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
+	//	plugin= {"html:target/cucumber-html-report","pretty:target/cucumber-pretty.txt","usage:target/cucumber-usage.json","junit:target/cucumber-results.xml"},
 		monochrome=true,
 		strict=true,
 		dryRun=false
@@ -28,5 +35,17 @@ import cucumber.api.junit.Cucumber;
 
 
 public class TestRunner2 {
+	
+	@AfterClass
+	 public static void writeExtentReport() {
+	 Reporter.loadXMLConfig(new File("C:\\Bridesides\\FreeCRMCucumberFramework\\src\\main\\java\\com\\qa\\config\\extent-config.xml"));
+	 }
+	
+	
+	
+	
+	
+	
+	
 
 }

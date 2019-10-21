@@ -2,6 +2,8 @@ package com.qa.stepdefinitions;
 
 import java.util.Map;
 
+import org.junit.Test;
+
 import com.qa.base.TestBase;
 import com.qa.base.TestBaseAdvanced;
 import com.qa.page.LoginPageadvanced;
@@ -9,6 +11,9 @@ import com.qa.util.BaseUtilAdvanced;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 
 public class StepWithResources  extends TestBaseAdvanced {
 	private  static Map<String, String> objectrepository;
@@ -33,6 +38,9 @@ public class StepWithResources  extends TestBaseAdvanced {
 		lpa.login(objectrepository.get("username"), objectrepository.get("password"));
 	}
 */	
+
+	
+
 @Then("^Do enter the valid username and password and clicks$")
 public void do_enter_the_valid_username_and_password_and_click() throws Throwable {
 	loginpagess.enterTextInTextBox(objectrepository.get("username_xpath"), objectrepository.get("username"));

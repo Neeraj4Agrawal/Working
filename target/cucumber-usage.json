@@ -1,0 +1,38 @@
+[
+  {
+    "source": "^Do enter the valid username and password and clicks$",
+    "steps": [
+      {
+        "name": "Do enter the valid username and password and clicks",
+        "aggregatedDurations": {
+          "average": 2.730559989,
+          "median": 2.730559989
+        },
+        "durations": [
+          {
+            "duration": 2.730559989,
+            "location": "C:/Bridesides/FreeCRMCucumberFramework/src/test/java/com/qa/features/loginadvance.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Initialize resources in the beginning of each scenario for Loginss$",
+    "steps": [
+      {
+        "name": "Initialize resources in the beginning of each scenario for Loginss",
+        "aggregatedDurations": {
+          "average": 24.019847114,
+          "median": 24.019847114
+        },
+        "durations": [
+          {
+            "duration": 24.019847114,
+            "location": "C:/Bridesides/FreeCRMCucumberFramework/src/test/java/com/qa/features/loginadvance.feature:4"
+          }
+        ]
+      }
+    ]
+  }
+]

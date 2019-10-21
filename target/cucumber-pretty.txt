@@ -1,0 +1,5 @@
+Feature: Free CRM Login Featuress
+
+  Scenario: Free CRM Login Test Scenarioss                                   # C:/Bridesides/FreeCRMCucumberFramework/src/test/java/com/qa/features/loginadvance.feature:3
+    Given Initialize resources in the beginning of each scenario for Loginss # StepWithResources.initialize_resources_in_the_beginning_of_each_scenario_for_Logins()
+    Then Do enter the valid username and password and clicks                 # StepWithResources.do_enter_the_valid_username_and_password_and_click()

@@ -28,14 +28,14 @@ formatter.match({
   "location": "StepWithResources.initialize_resources_in_the_beginning_of_each_scenario_for_Logins()"
 });
 formatter.result({
-  "duration": 71078072215,
+  "duration": 24019847114,
   "status": "passed"
 });
 formatter.match({
   "location": "StepWithResources.do_enter_the_valid_username_and_password_and_click()"
 });
 formatter.result({
-  "duration": 6904021251,
+  "duration": 2730559989,
   "status": "passed"
 });
 });

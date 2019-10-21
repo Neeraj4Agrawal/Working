@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="30.842587">
-<testcase classname="Free CRM Login Featuress" name="Free CRM Login Test Scenarioss" time="30.842587">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="77.982093">
+<testcase classname="Free CRM Login Featuress" name="Free CRM Login Test Scenarioss" time="77.982093">
 <system-out><![CDATA[Given Initialize resources in the beginning of each scenario for Loginss....passed
 Then Do enter the valid username and password and clicks....................passed
 ]]></system-out>
